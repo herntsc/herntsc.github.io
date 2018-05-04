@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Lato', serif;
 }
 
 .row {
@@ -11,7 +12,7 @@
 .columnA {
     flex: 50%;
     padding: 10px;
-    height: 1000px;
+    height: 600px;
     background: url("../img/jn_sample_whiter.PNG");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -20,7 +21,20 @@
 .columnB {
     flex: 50%;
     padding: 10px;
-    height: 1000px;
+    height: 610px;
+    background-color: #f1f1f1;
+}
+
+.columnC {
+    flex: 50%;
+    padding: 10px;
+    height: 500px;
+}
+
+.columnD {
+    flex: 50%;
+    padding: 10px;
+    height: 500px;
     background-color: #f1f1f1;
 }
 
@@ -34,9 +48,9 @@ body {
 }
 
 .columnB h1 {
-  padding: 10px;
 	text-align: center;
-  font-family: 'Lato', serif;
+  font-weight: bolder;
+  font-size: 58px;
 }
 
 .header h1 {
