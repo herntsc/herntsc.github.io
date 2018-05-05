@@ -101,7 +101,7 @@ body {
   position: fixed;
 }
 
-@media screen and (max-height: 650px) and (max-width: 735px) {
+@media screen and (max-height: 850px) and (max-width: 735px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
   .columnA {display: none;}
