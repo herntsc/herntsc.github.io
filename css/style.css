@@ -10,7 +10,7 @@
 
 /* Create two equal columns that sits next to each other */
 .columnA {
-    flex: 50%;
+    flex: 40%;
     padding: 10px;
     height: 600px;
     background: url("../img/jn_sample_whiter.PNG");
@@ -19,7 +19,7 @@
 }
 
 .columnB {
-    flex: 50%;
+    flex: 60%;
     padding: 10px;
     height: 610px;
     background-color: #f1f1f1;
