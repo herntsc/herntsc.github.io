@@ -15,7 +15,8 @@
     height: 600px;
     background: url("../img/jn_sample_whiter.PNG");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 40%;
+    background-attachment: fixed;
 }
 
 .columnB {
@@ -97,12 +98,10 @@ body {
   font-size:30px;
   cursor:pointer;
   color: #111;
-  background-image: image("jn_sample_whiter.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  position: fixed;
 }
 
-@media screen and (max-height: 450px) and (max-width: 600px) {
+@media screen and (max-height: 450px) and (max-width: 735px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
   .columnA {display: none;}
